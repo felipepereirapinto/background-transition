@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Roboto, sans-serif;
+
+  background: url('assets/canada-0.jpg') no-repeat center center fixed;
+  background-size: cover;
+  transition: 3s;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  text-shadow: 2px 2px 4px black;
+
+  font-size: 4rem;
+  text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
+}
