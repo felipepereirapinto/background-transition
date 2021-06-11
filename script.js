@@ -6,8 +6,11 @@ const images = [
 ]
 const base = 'assets/'
 
+// Caches images, avoiding white flash between background replacements
+images.forEach(image => new Image().src = base + image)
+
 const style = document.documentElement.style
-let index = 1;
+let index = 1
 
 // Changes background every 4 seconds
 setInterval(() => {
@@ -15,4 +18,4 @@ setInterval(() => {
   style.backgroundSize = 'cover'
 
   index >= images.length - 1 ? index = 0 : index++
-}, 4000);
+}, 4000)
