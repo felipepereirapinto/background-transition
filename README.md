@@ -1,13 +1,16 @@
 # Background Transition
 Micro-activity: changes background image with ease transition every 4 seconds
 
+## Techs
+- HTML
+- CSS
+- Javascript
+
 ## Todo
-<ul>
-  <li>[ ] Deploy on [...]</li>
-  <li>[ ] Feature to upload relevant pictures</li>
-  <li>[ ] Change message with /params</li>
-  <li>[ ] Feature to change type of animation and values</li>
-</ul>
+- [ ] Deploy on [Heroku](https://dashboard.heroku.com/)
+- [ ] Feature to upload relevant pictures
+- [ ] Change message with /params
+- [ ] Feature to change type of animation and values
 
 ---
 
